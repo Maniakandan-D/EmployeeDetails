@@ -1,12 +1,6 @@
 <div class="container-fluid g-0">
-
-  <!-- HEADER -->
   <app-header></app-header>
-
-  <!-- MAIN CONTENT -->
   <main class="black-borde">
-
-    <!-- TOOBAR TO ADD AND SEARCH EMPLOYEES -->
     <div class="toolbar">
 
       <div class="add-employee">
@@ -20,8 +14,6 @@
       </div>
 
     </div>
-
-    <!-- AREA TO DISPLAY ALL THE EMPLOYEES -->
     <div class="employees">
 
       <div class="row mt-5" *ngIf="employees.length == 0">
@@ -41,7 +33,6 @@
   </main>
 </div>
 
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -52,8 +43,6 @@
       <div class="modal-body">
 
         <form [formGroup]="employeeForm">
-
-          <!-- FIRST AND LAST NAME -->
           <div class="row">
             <div class="col">
               <input type="text" class="form-control" placeholder="First Name" formControlName="firstname">
@@ -62,8 +51,6 @@
               <input type="text" class="form-control" placeholder="Last Name" formControlName="lastname">
             </div>
           </div>
-
-          <!-- PERSONAL INFORMATION -->
           <div class="row mt-5">
             <div class="col form-heading">
               <h6 class="text-secondary fst-italic">Personal Information</h6>
@@ -114,8 +101,6 @@
               <input type="file" class="form-control" id="profile" #fileInput>
             </div>
           </div>
-
-          <!-- JOB INFORMATION -->
           <div class="row mt-5">
             <div class="col form-heading">
               <h6 class="text-secondary fst-italic">Job Information</h6>
