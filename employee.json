@@ -83,18 +83,6 @@
       "salary": 4.9,
       "profile": "Profile-03.jpg",
       "id": 9
-    },
-    {
-      "firstname": "Alis",
-      "lastname": "Kumari",
-      "birthdate": "1990-08-30",
-      "gender": "f",
-      "education": "graduate",
-      "company": "Google",
-      "jobExperience": 12,
-      "salary": 35,
-      "profile": "photo-1453728013993-6d66e9c9123a.jfif",
-      "id": 10
     }
   ],
   "comments": [],
